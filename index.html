@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+
+    <title>Aposta Automobilistica</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <div class="page">
+        <div class="car-option">
+
+            <span>Balance: R$ <span class="coin">100</span></span>
+
+            <form action="">
+                <input type="text" placeholder="Bet value">
+            </form>
+
+            <div class="carButton">
+                <button class="carRed">Car 1</button>
+                <button class="carBlue">Car 2</button>
+                <button class="carYellow">Car 3</button>
+                <button class="carGreen">Car 4</button>
+                <button class="carViolet">Car 5</button>
+
+            </div>
+            
+        </div>
+
+        <div class="bet-amount">
+            <span>bet amount: <span class="bet"></span></span>
+            <span>selected car: <span class="selected-car"></span></span>
+            <button class="start">START</button>
+        </div>
+    </div>
+     
+     
+     <div class="circuit">
+
+        <div class="fullTrack">
+            
+            <div class="track">
+                <div class="car" id="car1"></div>
+            </div>
+
+            <div class="track" >
+                <div class="car" id="car2"></div>
+            </div>
+            
+            <div class="track">
+                <div class="car" id="car3"></div>
+            </div>
+
+            <div class="track">
+                <div class="car" id="car4"></div>
+            </div>
+
+            <div class="track">
+                <div class="car" id="car5"></div>
+            </div>
+            
+        </div>
+       
+
+    </div>
+    
+    
+    
+</body>
+</html>
